@@ -76,18 +76,3 @@ WHERE milliseconds > (
     FROM track
 )
 ORDER BY milliseconds DESC;
-
-
-
--- Question Set 3 – Advance
-
--- 1. Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent
-
-
--- 2. We want to find out the most popular music Genre for each country. 
--- We determine the most popular genre as the genre with the highest amount of purchases. 
--- Write a query that returns each country along with the top Genre. For countries where the maximum number of purchases is shared return all Genres
-
--- 3. Write a query that determines the customer that has spent the most on music for each country. 
--- Write a query that returns the country along with the top customer and how much they spent. 
--- For countries where the top amount spent is shared, provide all customers who spent this amount
